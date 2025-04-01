@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenue sur Epiphane de Xaag Ingenieur</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="styles/responsive.js " defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <main>
         <!-- ===== BARRE DE NAVIGATION ====== -->
         <nav>
+            <div class="div_menu"><i class="fa-solid fa-bars"></i></div>
             <div class="nav_bloc1">
                 <img src="assets/logo.png" alt="LOGO DE EPIPHANE">
             </div>
@@ -36,6 +38,29 @@
             </div>
         </nav>
          <!-- ===== HEADER ====== -->
+          <div class="pdrapeau">
+            <div>
+                <a href="#">
+                    <img src="assets/ge.jpg" alt=""class="drapeau">
+                    <span> German</span>
+                </a><br>
+                <a href="#">
+                    <img src="assets/ita.png" alt=""class="drapeau">
+                    <span>Italian</span>
+                </a><br>
+                <a href="#">
+                    <img src="assets/es.png" alt="" class="drapeau">
+                    <span> Spanish</span>
+                </a><br>
+                <a href="#">
+                    <img src="assets/fr.webp" alt=""class="drapeau">
+                    <span> French</span>
+                </a>
+            </div>
+            <img class="drapeau" src="assets/drapeau-royaume-uni.jpeg" alt="">
+            <span>EN <i class="fa-solid fa-angle-up"></i></span>
+          
+        </div>
         <header>
             <div class="head1">
                 <p class="p1">Hi<span class="la_main">👋</span>, I'm a <br> <span class="Software"> Software Engineer</span></p>
@@ -350,9 +375,13 @@
             </div>
             <div>
                 <form action="" method="get">
+                    <i class="fa-solid fa-envelope"></i>
                     <input type="email" placeholder="Enter email address"><br>
                     <textarea name="" id="" rows="12" placeholder="Enter message"></textarea><br>
-                    <div><input type="submit" value='Send Message'></div>
+                    <div>
+                        <input type="submit" value='Send Message'>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
                 </form>
             </div>
         </div>
